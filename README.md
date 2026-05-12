@@ -397,6 +397,346 @@ This project is licensed under the MIT License.
 
 ---
 
+---
+
+# 🚗 Online Parking System - README Guide
+
+## 📌 Project Overview
+
+**Online Parking System** is a smart parking management web application designed to simplify vehicle parking operations using QR-based ticket verification and slot management.
+
+### Features
+
+* 🚘 Vehicle Entry & Exit Management
+* 📱 QR Code Ticket Verification
+* 🅿️ Parking Slot Booking
+* 🧾 Parking Record Management
+* 🔐 Admin Dashboard
+* 💾 MySQL Database Integration
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* HTML
+* CSS
+* JavaScript
+* JSP
+
+### Backend
+
+* Java
+* Servlets
+
+### Database
+
+* MySQL
+
+### Build Tool
+
+* Maven
+
+---
+
+## ⚙️ Prerequisites
+
+| Software      | Version |
+| ------------- | ------- |
+| Java JDK      | 8+      |
+| Apache Tomcat | 9+      |
+| MySQL         | Latest  |
+| Maven         | Latest  |
+| Git           | Latest  |
+
+---
+
+## 📥 Installation Steps
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/online-parking-system.git
+```
+
+### Navigate to Project Folder
+
+```bash
+cd online-parking-system
+```
+
+### Import Database
+
+Import:
+
+```bash
+database/qrparking.sql
+```
+
+into MySQL.
+
+---
+
+### Configure Database Connection
+
+Update:
+
+```bash
+src/main/java/com/qrparking/util/DBConnection.java
+```
+
+with your MySQL username and password.
+
+---
+
+### Build Project
+
+```bash
+mvn clean install
+```
+
+---
+
+### Run Project
+
+Deploy the generated WAR file into Apache Tomcat server.
+
+Start Tomcat and open:
+
+```bash
+http://localhost:8080/
+```
+
+---
+
+# 🌱 Plant Palace - README Guide
+
+## 📌 Project Overview
+
+**Plant Palace** is an e-commerce web application for buying plants and gardening products online.
+
+### Features
+
+* 🪴 Plant Catalog
+* 🛒 Shopping Cart
+* 👤 User Authentication
+* 📦 Order Management
+* 📷 Product Image Upload
+* 💳 Checkout System
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+
+### Backend
+
+* Python
+* Django
+
+### Database
+
+* SQLite3
+
+---
+
+## ⚙️ Installation Guide
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/plant-palace.git
+```
+
+### Navigate to Project Folder
+
+```bash
+cd Plant_Palace
+```
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Environment
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Configure Environment Variables
+
+Copy:
+
+```bash
+.env.example
+```
+
+Create:
+
+```bash
+.env
+```
+
+Update secret keys and configuration.
+
+---
+
+### Run Database Migrations
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+---
+
+### Run Development Server
+
+```bash
+python manage.py runserver
+```
+
+Open:
+
+```bash
+http://127.0.0.1:8000/
+```
+
+---
+
+# 🛡️ Her Safe Path 2.0 - README Guide
+
+## 📌 Project Overview
+
+**Her Safe Path 2.0** is an enhanced version of the women safety platform with improved emergency alert systems, location tracking, and better user experience.
+
+### Features
+
+* 🚨 SOS Emergency Alert
+* 📍 Live Location Tracking
+* 📱 Trusted Contact Notifications
+* 🔐 User Authentication
+* 📧 Email Alerts
+* 🖥️ Responsive Dashboard
+* ⚡ Enhanced Security Features
+
+---
+
+## 🛠️ Tech Stack
+
+* Python
+* Django
+* SQLite3
+* Bootstrap
+* HTML/CSS/JavaScript
+
+---
+
+## ⚙️ Installation Guide
+
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/her-safe-path-2.0.git
+```
+
+### Navigate to Folder
+
+```bash
+cd her-safe-path-enhanced
+```
+
+---
+
+### Create Virtual Environment
+
+```bash
+python -m venv venv
+```
+
+### Activate Environment
+
+#### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+#### Linux / macOS
+
+```bash
+source venv/bin/activate
+```
+
+---
+
+### Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### Database Setup
+
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+---
+
+### Create Admin User
+
+```bash
+python manage.py createsuperuser
+```
+
+---
+
+### Run Server
+
+```bash
+python manage.py runserver
+```
+
+Open:
+
+```bash
+http://127.0.0.1:8000/
+```
+
+---
+
 # 👨‍💻 Author
 
 Developed by **Ajinkya Akole**
